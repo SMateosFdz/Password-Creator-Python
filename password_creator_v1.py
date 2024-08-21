@@ -6,8 +6,6 @@ letters = list(string.ascii_letters)
 numbers = list(string.digits)
 special = list(string.punctuation)
 
-print(len(letters))
-
 print("Write the length of the password: ")
 length = int(input())
 password = ""

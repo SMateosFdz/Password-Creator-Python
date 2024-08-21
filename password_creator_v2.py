@@ -7,6 +7,7 @@ letters = list(string.ascii_letters)
 numbers = list(string.digits)
 special = list(string.punctuation)
 
+#Election of the number of letters, digits and special characters
 print("Write the number of letters: ")
 ll = int(input())
 
@@ -20,6 +21,7 @@ length = ll + ld + ls
 
 password = ""
 
+#Random password generation with randInt 
 while True:
     election = random.randint(0, 2)
     if election == 0 and ll > 0:
